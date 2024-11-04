@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <div class="container animate__animated animate__fadeIn">
+        <div class="left-section">
+            <img src="assets/images/logo.png" alt="Password Manager Logo" class="logo animate__animated animate__zoomIn"> <!-- Updated to logo1.jpg -->
+            <h2 class="animate__animated animate__zoomIn">Password Manager</h2>
+        </div>
+        <div class="right-section">
+            <form action="dashboard.html" method="post" class="login-form">
+                <h3 class="animate__animated animate__fadeInDown">Welcome Back</h3>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required class="animate__animated animate__fadeInUp">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required class="animate__animated animate__fadeInUp">
+                <button type="submit" class="animate__animated animate__fadeInUp">Login</button>
+                <p class="animate__animated animate__fadeInUp">New here? <a href="register.html">Create Account</a></p>
+                <p class="animate__animated animate__fadeInUp"><a href="forgot-password.html">Forgot Password?</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
