@@ -1,0 +1,106 @@
+/* registration.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('assets/images/password-bg2.jpg'); /* Path to your background image */
+    background-size: cover; /* Make the image cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the content vertically */
+    height: 100vh; /* Full height */
+    margin: 0; /* Remove default margin */
+    padding: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.11); /* Semi-transparent background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Inner spacing */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    animation: fadeIn 1s ease; /* Fade-in animation */
+    width: 350px; /* Fixed width for the container */
+    margin: 50px auto; /* Centers the container */
+}
+
+h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below labels */
+}
+
+input {
+    width: 100%; /* Full width inputs */
+    max-width: 90%; /* Set maximum width */
+    padding: 10px; /* Inner spacing for inputs */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 4px; /* Rounded corners for inputs */
+    transition: border-color 0.3s; /* Smooth border color change */
+    margin: 0 auto; /* Center the input */
+    display: block; /* Block display for better centering */
+}
+
+input:focus {
+    border-color: #007BFF; /* Border color on focus */
+}
+
+.btn {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Inner spacing for button */
+    background-color: #007BFF; /* Button color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Button font size */
+    transition: background-color 0.3s; /* Smooth background color change */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.login-link {
+    text-align: center; /* Center the login link */
+    margin-top: 15px; /* Space above the link */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start invisible */
+    }
+    to {
+        opacity: 1; /* End fully visible */
+    }
+}
+
+.back-button-container {
+    margin-top: 20px; /* Space between Unlock button and Back button */
+    text-align: center; /* Center the back button */
+}
+
+.back-link {
+    display: inline-block; /* Make it a block to apply styles */
+    padding: 10px 15px; /* Padding for the button */
+    background-color: #007BFF; /* Light grey background */
+    color: #fcf8f8; /* Dark text color */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.back-link:hover {
+    background-color: #0056b3; /* Darker grey on hover */
+    color: #000; /* Darker text color on hover */
+}
